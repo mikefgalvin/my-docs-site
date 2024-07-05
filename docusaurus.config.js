@@ -28,22 +28,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/your-org/sample-docs/edit/main/',
-          lastVersion: 'current',
-          versions: {
-            current: {
-              label: 'Next',
-              path: 'next',
-            },
-            '1.0.0': {
-              label: '1.0.0',
-              path: '1.0.0',
-            },
-            '2.0.0': {
-              label: '2.0.0',
-              path: '2.0.0',
-            },
-          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -53,7 +37,6 @@ const config = {
   ],
 
   themeConfig: /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ ({
-    image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'My Site',
       logo: {
@@ -65,11 +48,7 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
-        },
-        {
-          type: 'docsVersionDropdown',
-          position: 'left',
+          label: 'Docs',
         },
         {
           href: 'https://github.com/your-org/sample-docs',
@@ -91,13 +70,13 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
     },
   }),
 };
 
 export default config;
+
