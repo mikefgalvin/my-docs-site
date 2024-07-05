@@ -3,9 +3,35 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  background-color: #085D6F; /* Background color for the feature section */
 }
 
 .featureSvg {
   height: 200px;
   width: 200px;
+  fill: #F16623; /* Primary color for the SVGs */
+}
+
+.text--center h3 {
+  color: #F16623; /* Primary color for the headings */
+}
+
+.text--center p {
+  color: #FFFFFF; /* White color for the text */
+}
+
+.padding-horiz--md {
+  padding: 0 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
