@@ -27,23 +27,19 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          lastVersion: 'current',
+          lastVersion: '3.0.0',
           versions: {
-            current: {
+            '3.0.0': {
               label: '3.0.0',
               path: '3.0.0',
-            },
-            '1.0.0': {
-              label: '1.0.0',
-              path: '1.0.0',
             },
             '2.0.0': {
               label: '2.0.0',
               path: '2.0.0',
             },
-            '3.0.0': {
-              label: '3.0.0',
-              path: '3.0.0',
+            '1.0.0': {
+              label: '1.0.0',
+              path: '1.0.0',
             },
           },
         },
