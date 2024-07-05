@@ -1,5 +1,4 @@
 // @ts-check
-import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -10,8 +9,8 @@ const config = {
   url: 'https://sample-docs.vercel.app', // Include protocol
   baseUrl: '/',
 
-  organizationName: 'your-org',
-  projectName: 'sample-docs',
+  organizationName: 'your-org', // Your GitHub org/user name.
+  projectName: 'sample-docs', // Your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -36,7 +35,7 @@ const config = {
     ],
   ],
 
-  themeConfig: /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ ({
+  themeConfig: {
     navbar: {
       title: 'My Site',
       logo: {
@@ -70,13 +69,8 @@ const config = {
           ],
         },
       ],
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
     },
-  }),
+  },
 };
 
 export default config;
-
