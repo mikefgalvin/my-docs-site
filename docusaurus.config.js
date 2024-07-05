@@ -43,6 +43,8 @@ const config = {
             },
           },
         },
+        disableVersioning: false,
+      includeCurrentVersion: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
