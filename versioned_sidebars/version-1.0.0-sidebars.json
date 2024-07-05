@@ -1,0 +1,19 @@
+{
+  "tutorialSidebar": [
+    {
+      "type": "category",
+      "label": "Getting Started",
+      "items": [
+        "introduction",
+        "installation"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Features",
+      "items": [
+        "usage"
+      ]
+    }
+  ]
+}
