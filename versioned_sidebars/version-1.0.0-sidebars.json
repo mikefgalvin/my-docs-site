@@ -7,13 +7,6 @@
         "introduction",
         "installation"
       ]
-    },
-    {
-      "type": "category",
-      "label": "Features",
-      "items": [
-        "usage"
-      ]
     }
   ]
 }

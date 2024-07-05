@@ -3,8 +3,7 @@
 const sidebars = {
   tutorialSidebar: [
     'introduction',
-    'installation',
-    'usage',
+    'installation'
   ],
 };
 
