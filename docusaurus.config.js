@@ -41,10 +41,6 @@ const config = {
               label: '2.0.0',
               path: '2.0.0',
             },
-            '3.0.0': {
-              label: '3.0.0',
-              path: '3.0.0',
-            },
           },
         },
         theme: {
@@ -63,14 +59,14 @@ const config = {
       },
       items: [
         {
+          type: 'docsVersionDropdown',
+          position: 'left',
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Docs',
-        },
-        {
-          type: 'docsVersionDropdown',
-          position: 'left',
         },
         {
           href: 'https://github.com/your-org/sample-docs',
