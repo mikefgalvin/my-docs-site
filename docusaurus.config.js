@@ -2,8 +2,8 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Paraflow Example',
+  tagline: 'I saw we do this',
   favicon: 'img/favicon.ico',
 
   url: 'https://sample-docs.vercel.app', // Include protocol
