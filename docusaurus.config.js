@@ -27,6 +27,21 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: 'Next',
+              path: 'next',
+            },
+            '1.0.0': {
+              label: '1.0.0',
+              path: '1.0.0',
+            },
+            '2.0.0': {
+              label: '2.0.0',
+              path: '2.0.0',
+            },
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -35,7 +50,7 @@ const config = {
     ],
   ],
 
-  themeConfig: {
+  themeConfig: /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ ({
     navbar: {
       title: 'My Site',
       logo: {
@@ -48,6 +63,10 @@ const config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Docs',
+        },
+        {
+          type: 'docsVersionDropdown',
+          position: 'left',
         },
         {
           href: 'https://github.com/your-org/sample-docs',
@@ -69,8 +88,9 @@ const config = {
           ],
         },
       ],
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
-  },
+  }),
 };
 
 export default config;
