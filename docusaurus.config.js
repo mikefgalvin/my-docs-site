@@ -27,6 +27,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          includeCurrentVersion: false,
           lastVersion: '3.0.0',
           versions: {
             '3.0.0': {
@@ -43,7 +44,6 @@ const config = {
             },
           },
         },
-        includeCurrentVersion: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
