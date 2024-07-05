@@ -41,6 +41,10 @@ const config = {
               label: '2.0.0',
               path: '2.0.0',
             },
+            '3.0.0': {
+              label: '3.0.0',
+              path: '3.0.0',
+            },
           },
         },
         theme: {
