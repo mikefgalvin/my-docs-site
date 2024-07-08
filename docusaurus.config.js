@@ -3,7 +3,7 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Paraflow Example',
-  tagline: 'I saw we do this',
+  tagline: 'I say we do this',
   favicon: 'img/favicon.ico',
 
   url: 'https://sample-docs.vercel.app', // Include protocol
